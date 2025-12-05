@@ -6,7 +6,7 @@ function App() {
   const [comment, setComment] = useState("");
   const [feedbacks, setFeedbacks] = useState([]);
 
-  const API_URL = "http://localhost:8000";
+  const API_URL = "http://YOUR_VM_IP:8000";
 
   const submitFeedback = async (e) => {
     e.preventDefault();
